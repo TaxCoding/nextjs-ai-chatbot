@@ -47,6 +47,7 @@ export default function Page() {
           <p className="text-sm text-gray-500 dark:text-zinc-400">
             Use your email and password to sign in
           </p>
+          <img src="/file.png" alt="Sign In Image" className="mt-4 w-32 h-32" />
         </div>
         <AuthForm action={handleSubmit} defaultEmail={email}>
           <SubmitButton isSuccessful={isSuccessful}>Sign in</SubmitButton>
