@@ -50,6 +50,7 @@ export default function Page() {
           <p className="text-sm text-gray-500 dark:text-zinc-400">
             Create an account with your email and password
           </p>
+          <img src="/file.png" alt="Sign Up Image" className="mt-4 w-32 h-32" />
         </div>
         <AuthForm action={handleSubmit} defaultEmail={email}>
           <SubmitButton isSuccessful={isSuccessful}>Sign Up</SubmitButton>
